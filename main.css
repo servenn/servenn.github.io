@@ -172,7 +172,7 @@ body{
 /* about section */
 
 .about{
-    height:100vh;
+    /* height:100vh; */
     color:#fff;
     /* border:1px solid #fff; */
 }
@@ -357,7 +357,11 @@ body{
 } 
 
 /* projects section */
+.projects{
+    margin-top:200px;
+}
 .project{
+    
     background:rgb(98, 98, 151);
     padding:100px 0;
 }
