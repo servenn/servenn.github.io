@@ -2,8 +2,17 @@ $(document).ready(function(){
     
     // var bar  = document.querySelector('.text');
     
+    var linkss = $('.nav-item');
+    linkss.on('click',()=>{
+        $('.collapse').collapse('hide'); 
+    })
+
+
     // navbar section
     $(window).scroll(function(){
+
+        // navigation links clik handling
+        
 
             //projects animation
             var $ptop = $('.test');
