@@ -1,10 +1,13 @@
 $(document).ready(function(){
     
     // var bar  = document.querySelector('.text');
-    
+     $('.yo').on('click',function(){
+        $('.navbar-nav').toggleClass('borderNavbar');
+     });
     var linkss = $('.nav-item');
     linkss.on('click',()=>{
         $('.collapse').collapse('hide'); 
+        // $('.navbar-nav').removeClass('borderNavbar')
     })
 
 
